@@ -1,0 +1,148 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito'; /* Set font family */
+}
+
+/* Set background image for the body */
+body {
+    background-image: url(image1.png);
+    /* Adjust background image properties as needed */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* General styles for the container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.header {
+    display: flex;
+    align-items: center; /* Align vertically */
+    width: 50%;
+}
+
+/* Styles for the navigation bar */
+.nav-bar {
+    flex: 1;
+    display: flex;
+    align-items: center; /* Align vertically */
+    margin-top: 10px;
+    justify-content: space-around;
+}
+
+/* Styles for the navigation links */
+.nav-bar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect on navigation links */
+.nav-bar a:hover {
+    color: #555;
+}
+
+.profile-link {
+    margin-left: 5px; /* Add some spacing between the last link and the profile image */
+    display: flex; /* Align items in a row */
+    align-items: center; /* Align vertically */
+}
+
+.profile-link img {
+    height: 30px; /* Adjust the height of the profile image */
+    margin-left: 5px; /* Add some spacing between the profile image and the link text */
+}
+
+/* Style for the "About" heading */
+.about-container {
+    text-align: center; /* Center the content */
+    margin-top: 30px; /* Add space between the navigation bar and the "About" heading */
+}
+
+.about-heading {
+    color: #29218A; /* Set color to #29218A */
+    font-size: 42px; /* Set font size */
+    font-weight: 800; /* Set font weight */
+    line-height: 57.29px; /* Set line height */
+    text-align: center; /* Center the text */
+}
+
+/* Style for the brain image */
+.brain-img {
+    margin-right: 20px; /* Add some spacing between the image and the text */
+    height: 270px;
+    float: left; /* Float the image to the left */
+}
+
+
+.aligned {
+    display: flex;
+    align-items: center;
+}
+  
+span {
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 40px;
+
+}
+@media screen and (min-width: 600px) {
+    .logo {
+        width: 175px;
+        height: 150.2px;
+    }
+}
+.logo{
+    width: 40%;
+    height: auto;
+}
+footer {
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 38.19px;
+    text-align: left;
+}
+footer a {
+    color: black;
+}
+
+.footer{
+    display: flex; 
+    justify-content: space-between;
+}
+
+.subscribe{
+    display: flex; justify-content: center; align-items: center;
+}
+.subscribe div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.background-image{
+    background-image: url('footer_background.png');
+}
+
+.link-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-columns > div {
+    display: flex;
+    flex-direction: column;
+}
+.link-columns > div:last-child {
+    margin-left: 400px;
+}
